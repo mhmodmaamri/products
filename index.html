@@ -110,6 +110,13 @@
                     <td class="right"><input type="text" value="0x" style="margin: auto; text-align: center; width: 90%;"></td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"> 
+                        <button style="width: 90%; display: block; margin: auto; height: 30px;" onclick="hide_1()">Hide</button>
+                    </td>
+                </tr>
+            </tfoot>
         </table>
     
     </div>
@@ -151,6 +158,13 @@
                 <td class="right"><input type="text" value="0x" style="margin: auto; text-align: center; width: 90%;"></td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    <button style="width: 90%; display: block; margin: auto; height: 30px;" onclick="hide_2()">Hide</button>
+                </td>
+            </tr>
+        </tfoot>
     </table>
 </div>
 
@@ -190,6 +204,13 @@
                 <td class="right"><input type="text" value="0x" style="margin: auto; text-align: center; width: 90%;"></td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    <button style="width: 90%; display: block; margin: auto; height: 30px;" onclick="hide_3()">Hide</button>
+                </td>
+            </tr>
+        </tfoot>
     </table>
 </div>
 
@@ -229,6 +250,13 @@
                 <td class="right"><input type="text" value="0x" style="margin: auto; text-align: center; width: 90%;"></td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    <button style="width: 90%; display: block; margin: auto; height: 30px;" onclick="hide_4()">Hide</button>
+                </td>
+            </tr>
+        </tfoot>
     </table>
 </div>
 
@@ -266,6 +294,13 @@
                 <td class="right"><input type="text" value="0x" style="margin: auto; text-align: center; width: 90%;"></td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    <button style="width: 90%; display: block; margin: auto; height: 30px;" onclick="hide_5()">Hide</button>
+                </td>
+            </tr>
+        </tfoot>
     </table>
 </div>
 
@@ -303,6 +338,13 @@
                 <td class="right"><input type="text" value="0x" style="margin: auto; text-align: center; width: 90%;"></td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> 
+                    <button style="width: 90%; display: block; margin: auto; height: 30px;" onclick="hide_6()">Hide</button>
+                </td>
+            </tr>
+        </tfoot>
     </table>
 </div>
 
@@ -439,6 +481,43 @@
         urbanElement5.style.display = "block";
       } else {
         urbanElement5.style.display = "block";
+      }
+    }
+
+    function hide_1() {
+      var urbanElement = document.getElementById("urban_case");
+      if (urbanElement.style.display === "block") {
+        urbanElement.style.display = "none";
+      }
+    }
+    function hide_2() {
+      var urbanElement1 = document.getElementById("royal_case");
+      if (urbanElement1.style.display === "block") {
+        urbanElement1.style.display = "none";
+      }
+    }
+    function hide_3() {
+      var urbanElement3 = document.getElementById("titanum_case");
+      if (urbanElement3.style.display === "block") {
+        urbanElement3.style.display = "none";
+      }
+    }
+    function hide_4() {
+      var urbanElement4 = document.getElementById("pvc");
+      if (urbanElement4.style.display === "block") {
+        urbanElement4.style.display = "none";
+      }
+    }
+    function hide_5() {
+      var urbanElement5 = document.getElementById("full");
+      if (urbanElement5.style.display === "block") {
+        urbanElement5.style.display = "none";
+      }
+    }
+    function hide_6() {
+      var urbanElement6 = document.getElementById("D");
+      if (urbanElement6.style.display === "block") {
+        urbanElement6.style.display = "none";
       }
     }
 
